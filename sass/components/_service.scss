@@ -13,7 +13,7 @@
   background-size: 1600px auto;
   background-position: center center;
   background-repeat: no-repeat;
-  
+
 }
 .service__wrapper {
   display: flex;
@@ -21,9 +21,9 @@
   flex-direction: column;
   align-items: center;
   max-width: 696px;
-  
+
 }
-.service-title {
+.service__title {
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;

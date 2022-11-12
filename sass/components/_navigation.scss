@@ -5,7 +5,7 @@
 .navigation__menu {
   display: flex;
 }
-.navigation__menu .navigation__link {
+.navigation__link {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -20,11 +20,11 @@
   margin-right: 0;
 }
 
-.navigation__menu .navigation__link.active {
+.navigation__link--active {
   color: var(--accent-color);
 }
 
-.navigation__link.active::after {
+.navigation__link.navigation__link--active::after {
   content: '';
   background-color: #2196f3;
   border-radius: 2px;
@@ -35,7 +35,7 @@
   width: 100%;
 }
 
-.navigation__menu .navigation__link:hover,
-.navigation__menu .navigation__link:focus {
+.navigation__link:hover,
+.navigation__link:focus {
   color: var(--accent-color);
 }
