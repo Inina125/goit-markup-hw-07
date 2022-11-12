@@ -13,6 +13,10 @@
 .features__item {
   margin-right: 30px;
   max-width: 270px;
+  
+  &:last-child {
+    margin-right: 0;
+  }
 }
 .features__icons {
   background-color: #f5f4fa;
@@ -21,10 +25,6 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
-}
-
-.features__item:last-child {
-  margin-right: 0;
 }
 
 .features__list .features__text {

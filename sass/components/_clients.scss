@@ -25,12 +25,12 @@
 
 .clients__svg {
   color: #afb1b8;
-}
 
-.clients__svg:hover,
-.clients__svg:focus {
+  &:hover,
+  &:focus {
   color: #2196f3;
   border: 1px solid #2196f3;
+}
 }
 
 .clients__icon-logo {

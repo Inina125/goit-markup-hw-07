@@ -18,10 +18,10 @@
 .skils__item {
   margin-right: 30px;
   position: relative;
-}
 
-.skils__item:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 .skils__overlay {
   width: 100%;

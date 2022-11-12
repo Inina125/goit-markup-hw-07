@@ -17,6 +17,11 @@
   display: flex;
   align-items: center;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 .header__contact {
   display: flex;
@@ -29,13 +34,9 @@
   fill: currentColor;
   margin: 10px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.header__icon-header:hover,
-.header__icon-header:focus {
-  color: var(--accent-color);
-}
 
-.header__contact-link:hover,
-.header__contact-link:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
